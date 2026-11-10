@@ -1,0 +1,118 @@
+{
+  "name": "giun-skills",
+  "owner": {
+    "name": "유기운"
+  },
+  "metadata": {
+    "description": "Upstream GitHub 저장소를 직접 가리키는 스킬 모음. 업데이트는 원작자 저장소에서 그대로 받아옵니다."
+  },
+  "plugins": [
+    {
+      "name": "interfaces",
+      "description": "jakubkrehel/skills — UI·타이포·컬러·접근성·레이아웃·UX 라이팅 스킬 15종",
+      "source": {
+        "source": "github",
+        "repo": "jakubkrehel/skills"
+      }
+    },
+    {
+      "name": "cyclomatic-complexity",
+      "description": "saurabhkumar8112 — 순환 복잡도 줄이기 리팩터링",
+      "source": {
+        "source": "github",
+        "repo": "saurabhkumar8112/cyclomatic-complexity-skill"
+      }
+    },
+    {
+      "name": "eli5",
+      "description": "dreambigou/eli5 — 대상 수준에 맞춘 설명",
+      "source": {
+        "source": "github",
+        "repo": "dreambigou/eli5"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/eli5"
+      ]
+    },
+    {
+      "name": "archify",
+      "description": "tt-a1i/archify — 아키텍처·워크플로·시퀀스 등 다이어그램 생성",
+      "source": {
+        "source": "github",
+        "repo": "tt-a1i/archify"
+      },
+      "strict": false,
+      "skills": [
+        "./archify"
+      ]
+    },
+    {
+      "name": "lieflat-charts",
+      "description": "larashero3-dotcom/lieflat-charts — 템플릿 기반 차트·발표·리포트",
+      "source": {
+        "source": "github",
+        "repo": "larashero3-dotcom/lieflat-charts"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "amicro",
+      "description": "Subhan-code/Amicro — 마이크로 트랜지션 디자인 시스템",
+      "source": {
+        "source": "github",
+        "repo": "Subhan-code/Amicro--Micro-transitions-"
+      },
+      "strict": false,
+      "skills": [
+        "./.agents/skills/amicro-design-system"
+      ]
+    },
+    {
+      "name": "cursor-team-kit-picks",
+      "description": "cursor/plugins cursor-team-kit 중 선택한 8종",
+      "source": {
+        "source": "github",
+        "repo": "cursor/plugins"
+      },
+      "strict": false,
+      "skills": [
+        "./cursor-team-kit/skills/thermo-nuclear-code-quality-review",
+        "./cursor-team-kit/skills/weekly-review",
+        "./cursor-team-kit/skills/what-did-i-get-done",
+        "./cursor-team-kit/skills/check-compiler-errors",
+        "./cursor-team-kit/skills/verify-this",
+        "./cursor-team-kit/skills/run-smoke-tests",
+        "./cursor-team-kit/skills/make-pr-easy-to-review",
+        "./cursor-team-kit/skills/get-pr-comments"
+      ]
+    },
+    {
+      "name": "sepia",
+      "description": "Nanako0129/sepia — AI 티 나는 글을 사람이 쓴 글처럼 다듬기 (write/review/refactor/recreate)",
+      "source": {
+        "source": "github",
+        "repo": "Nanako0129/sepia"
+      }
+    },
+    {
+      "name": "yomiyasu",
+      "description": "nanaism/yomiyasu — AI가 쓴 일본어 퇴고",
+      "source": {
+        "source": "github",
+        "repo": "nanaism/yomiyasu"
+      }
+    },
+    {
+      "name": "mattpocock-skills",
+      "description": "mattpocock/skills — TDD, 디버깅, 코드 리뷰, 도메인 모델링, grilling 등",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      }
+    }
+  ]
+}
